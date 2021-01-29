@@ -8,6 +8,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
  * @title Elon Coin (ELON)
  * @author Teddy Blanchard
  * @notice Implements a basic ERC20 staking token with incentive MEME distribution.
+ *      A Lot of this came from OpenZepplin. If you take this coin seriously, you're retarded. 
  */
 contract ElonCoin is ERC20, Ownable {
     using SafeMath for uint256;
